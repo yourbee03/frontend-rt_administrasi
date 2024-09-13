@@ -1,5 +1,5 @@
 # NOTE : jalankan npm install terlebih dahulu,jika baru pertama kali memakai REACT silahkan ikuti instruksi dibawah
-# RUN : npm start
+
 
 # Getting Started with Create React App
 
