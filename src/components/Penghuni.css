@@ -1,0 +1,49 @@
+.penghuni-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.penghuni-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.penghuni-form label {
+  font-weight: bold;
+}
+
+.penghuni-form input,
+.penghuni-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.penghuni-list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.penghuni-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
