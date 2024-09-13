@@ -1,3 +1,4 @@
+# NOTE : jalankan npm install terlebih dahulu,jika baru pertama kali memakai REACT silahkan ikuti instruksi dibawah
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
