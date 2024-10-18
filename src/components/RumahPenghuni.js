@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Select from 'react-select';
 import {
   getRumah, getPenghuni, createPenghuniRumah, updatePenghuniRumah, deletePenghuniRumah,
-  updateRumahStatus, getHistoricalPenghuni, getCurrentPenghuni, getPembayaran
+  updateRumahStatus, getCurrentPenghuni, getPembayaran
 } from '../api/api';
 
 const RumahPenghuni = () => {
@@ -10,7 +10,6 @@ const RumahPenghuni = () => {
   const [penghuni, setPenghuni] = useState([]);
   const [selectedRumah, setSelectedRumah] = useState(null);
   const [currentPenghuni, setCurrentPenghuni] = useState(null);
-  const [historicalPenghuni, setHistoricalPenghuni] = useState([]);
   const [pembayaran, setPembayaran] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
 
@@ -39,9 +38,6 @@ const RumahPenghuni = () => {
     setSelectedRumah(selectedOption);
     const currentPenghuniResponse = await getCurrentPenghuni(selectedOption.value);
     setCurrentPenghuni(currentPenghuniResponse.data);
-
-    const historicalPenghuniResponse = await getHistoricalPenghuni(selectedOption.value);
-    setHistoricalPenghuni(historicalPenghuniResponse.data);
   };
 
   const handlePenghuniChange = (selectedOption) => {
