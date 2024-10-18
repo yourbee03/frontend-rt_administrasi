@@ -1,4 +1,4 @@
-# NOTE : jalankan npm install terlebih dahulu,jika baru pertama kali memakai REACT silahkan ikuti instruksi dibawah
+## NOTE : jalankan npm install terlebih dahulu,jika baru pertama kali memakai REACT silahkan ikuti instruksi dibawah
 
 
 # Getting Started with Create React App
